@@ -1,0 +1,220 @@
+/* Reset base */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Layout principale */
+#sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 25%;
+    padding: 20px;
+
+}
+
+#sidebar h1 {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar nav li {
+    margin: 5px 0;
+}
+
+#sidebar nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.external-link {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Area contenuto */
+#content-area {
+    margin-left: 25%;
+    padding: 15px;
+
+}
+
+/* Griglia interna 3 colonne */
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.span-2 {
+    grid-column: span 2; /* occuperà 2 colonne */
+}
+
+.span-3 {
+    grid-column: span 3;
+}
+
+.details {
+  padding-bottom: 100px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  display: block;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  line-height: 10px;
+  border-radius: 50%;
+  background-color: rgba(162, 162, 162, 0.3);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  font-size: 20px;
+  user-select: none;
+  z-index: 10;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.slider:hover button {
+  opacity: 1;
+}
+
+.slider .prev {
+  left: 10px;
+}
+
+.slider .next {
+  right: 10px;
+}
+
+/* Footer fisso */
+#footer {
+    position:fixed;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    text-align:center;
+    color:rgb(163, 163, 163);
+    font-size: 12px;
+    display:block;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px; /* margine interno generale */
+  }
+
+  main, #content-area, #content {
+    padding: 15px; /* più spazio interno per i contenuti */
+  }
+
+  main img, #content img {
+    margin: 15px 0; /* spazio sopra/sotto alle immagini */
+  }
+
+  main p, #content p {
+    margin: 15px 0;
+  }
+}
+
+/* Su mobile: il sidebar diventa un blocco a tutta larghezza */
+@media (max-width: 768px) {
+  #sidebar {
+    position: relative;   /* non fixed */
+    width: 100%;          /* occupa tutta la larghezza */
+    padding: 10px;
+    box-shadow: none;     /* opzionale, elimina l'ombra */
+  }
+
+  #sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 16px 0;
+  }
+
+  #sidebar nav li {
+    margin: 8px 0;
+  }
+
+  #sidebar nav a {
+    display: block;   /* occupa tutta la riga */
+    width: 100%;
+    font-size: 20px;
+    line-height: 1;
+    white-space: normal;      /* lascia andare a capo normalmente */
+    overflow-wrap: anywhere;  /* spezza le parole troppo lunghe */
+  }
+
+  #sidebar h1 {
+    font-size: 14px;
+    margin-bottom: 18px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  #footer {
+    left: 0%;
+    width: 100%;
+  }
+}
+
+/* Di default: nascosto */
+.mobile-only {
+  display: none;
+}
+
+/* Solo su mobile lo mostriamo */
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+    padding: 10px;
+  }
+
+  #about-mobile p {
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: 0;
+    
+  }
+
+}
