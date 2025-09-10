@@ -3,7 +3,7 @@ const pages = {
     home: `
         <div class="span-2">
             <div class="bouncing-area">
-                <h2 class="overlay-text">Welcome!<br> My name's Elena and I'm a xxxx designer</h2>
+                
                 <img src="imghome/Frame 100.png" class="bouncer">
                 <img src="imghome/Frame 101.png" class="bouncer">
                 <img src="imghome/Frame 102.png" class="bouncer">
