@@ -1,8 +1,19 @@
 // Contenuti delle pagine
 const pages = {
     home: `
-        <div></div>
-        <div></div>
+        <div class="span-2">
+            <div class="bouncing-area">
+                <h2 class="overlay-text">Welcome!<br> My name's Elena and I'm a xxxx designer</h2>
+                <img src="imghome/Frame 100.png" class="bouncer">
+                <img src="imghome/Frame 101.png" class="bouncer">
+                <img src="imghome/Frame 102.png" class="bouncer">
+                <img src="imghome/Frame 103.png" class="bouncer">
+                <img src="imghome/Frame 104.png" class="bouncer">
+                <img src="imghome/Frame 105.png" class="bouncer">
+                <img src="imghome/Frame 106.png" class="bouncer">
+                <img src="imghome/Frame 107.png" class="bouncer">
+            </div>
+        </div>
         <div>
             <p>I am a multifaceted designer, trained in interiors and evolved into service and strategy, with a fascination for the theoretical foundations of the design practice and the methodologies behind it. I enjoy exploring the world and its people through meaningful research, to create consistent designerly outcomes, that merge aesthetics and functionality, with human, social and political impact.<br><br>
             based in Delft, NL<br>
@@ -182,7 +193,7 @@ const pages = {
     `,
     project3: `
         <div>
-            <p><i>loading...</i>
+            <p><i>waiting for the rights to be mine :)</i>
         </div>
 
     `,
@@ -442,6 +453,43 @@ function initAllSliders() {
   });
 }
 
+// bouncing
+function initBouncers() {
+  const bouncers = document.querySelectorAll(".bouncer");
+
+  bouncers.forEach(img => {
+    let x = Math.random() * 400;
+    let y = Math.random() * 300;
+    let dx = (Math.random() * 1 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
+    let dy = (Math.random() * 1 + 0.5) * (Math.random() < 0.5 ? -1 : 1);
+
+    const area = img.parentElement;
+
+    function animate() {
+      const areaRect = area.getBoundingClientRect();
+      const imgRect = img.getBoundingClientRect();
+
+      x += dx;
+      y += dy;
+
+      if (x <= 0 || x + imgRect.width >= areaRect.width) dx *= -1;
+      if (y <= 0 || y + imgRect.height >= areaRect.height) dy *= -1;
+
+      img.style.transform = `translate(${x}px, ${y}px)`;
+
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  });
+}
+
+// Esegui al caricamento della pagina
+document.addEventListener("DOMContentLoaded", () => {
+  initBouncers();
+});
+
+
 // --- SPA desktop ---
 if (window.innerWidth > 768) {
   // loadPage per caricare il contenuto dinamico
@@ -463,6 +511,9 @@ if (window.innerWidth > 768) {
   // click su "ELENA CERNOTTO" -> home (colonna destra)
   document.getElementById("home-link").addEventListener("click", () => {
     loadPage("home");
+    setTimeout(() => {
+    initBouncers();
+  }, 50);
   });
 
   // caricamento iniziale desktop

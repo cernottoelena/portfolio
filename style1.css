@@ -55,7 +55,7 @@ a {
 
 /* Area contenuto */
 #content-area {
-    margin-left: 25%;
+    margin-left: 18%;
     padding: 15px;
 
 }
@@ -74,6 +74,34 @@ a {
 .span-3 {
     grid-column: span 3;
 }
+
+.bouncing-area {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bouncer {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  user-select: none;
+  pointer-events: none;
+  opacity: 85%;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 30%; /* distanza dal bordo superiore */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  z-index: 10; /* importante: sopra le immagini */
+  text-align: center;
+  pointer-events: none; /* così il click passa attraverso la scritta */
+  width: 100%;
+}
+
 
 .details {
   padding-bottom: 100px;
