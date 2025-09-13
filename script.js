@@ -4,6 +4,7 @@ const pages = {
         <div class="span-2">
             <div class="bouncing-area">
                 <p class="overlay-text">Welcome, my name is Elena<br>and when I grow up, I want to be a <i>designer</i>.</p>
+                
                 <img src="imghome/Frame 100.png" class="bouncer">
                 <img src="imghome/Frame 101.png" class="bouncer">
                 <img src="imghome/Frame 102.png" class="bouncer">
