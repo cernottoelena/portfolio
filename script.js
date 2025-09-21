@@ -29,7 +29,8 @@ const pages = {
             Industrial Design Engineering, Technische Universiteit Delft, Delft, Netherlands<br><br>
             Interior Design @PoliMi<br>
             2021–2024 (BSc degree)<br>
-            Design School, Politecnico di Milano, Milan, Italy</p>
+            Design School, Politecnico di Milano, Milan, Italy<br>
+            -> <a href="https://drive.google.com/file/d/1q-J9DpZSwUw7qfL_B9-BKe-2k93HiBJL/view" target="_blank" class="external-link">portfolio 2024</a></p>
         </div>
     `,
     project1: `
