@@ -30,10 +30,9 @@ const pages = {
             Interior Design @PoliMi<br>
             2021–2024 (BSc degree)<br>
             Design School, Politecnico di Milano, Milan, Italy<br>
-            -> <a href="https://drive.google.com/file/d/1q-J9DpZSwUw7qfL_B9-BKe-2k93HiBJL/view" target="_blank" class="external-link">portfolio 2024</a></p>
         </div>
     `,
-    project1: `
+    swapflex: `
         <div>
             <p>BRIEF<br>
             Design a new strategic opportunity for Swapfiets, a bike rental company.</p>
@@ -48,7 +47,7 @@ const pages = {
 
         <div class="span-2">
             <p>SOLUTION<br>
-            SwapFlex is a new subscription plan for Swapfiets. It enables users to rent bikes on demand in different cities, providing daily commuters with a more flexible option alongside the standard plan. It is the first milestone in a 10-year roadmap to expand the services portfolio offered by the company and establish itself as an integral part of people's lives.</p>
+            <i>SwapFlex</i> is a new subscription plan for Swapfiets. It enables users to rent bikes on demand in different cities, providing daily commuters with a more flexible option alongside the standard plan. It is the first milestone in a 10-year roadmap to expand the services portfolio offered by the company and establish itself as an integral part of people's lives.</p>
         </div>
 
         <div></div>
@@ -109,7 +108,7 @@ const pages = {
             <a href="https://drive.google.com/file/d/1NJL2Httim4tcF0UzUO8uT3RqZky_3tM8/view" target="_blank" class="external-link">Process Overview</a></p>
         </div>
     `,
-    project2: `
+    redcross: `
         <div>
             <p>BRIEF<br>
             Identify desirable, viable and feasible youth engagement approaches or services that Red Cross/ Red Crescent partners could apply for local youth action on working with nature to protect people. Develop a strategic plan of action for youth engagement in nature-positive solutions that outlines the vision and strategy, as well as a plan to execute it.</p>
@@ -119,12 +118,12 @@ const pages = {
 
         <div>
             <p>DESIGN METHODS<br>
-            desk research, interview, strategic roadmap, physical/digital prototyping</p>
+            desk research, interview, strategic roadmap, prototyping</p>
         </div>
 
         <div class="span-2">
             <p>SOLUTION<br>
-            YEES is a product/service system that aims to educate young people in areas affected by climate disasters in a playful way, teaching them to implement nature-based solutions (NbS) to prevent and combat these disasters. It comprises a card game, an online platform, and physical hubs in the regions.</p>
+            <i>YEES</i> is a product/service system that aims to educate young people in areas affected by climate disasters in a playful way, teaching them to implement nature-based solutions (NbS) to prevent and combat these disasters. It comprises a card game, an online platform, and physical hubs in the regions.</p>
         </div>
 
         <div></div>
@@ -193,13 +192,7 @@ const pages = {
             <a href="https://drive.google.com/file/d/1vT6gGoiq9mDtUwfSJ_zZxwoM7VpnAlVd/view" target="_blank" class="external-link">Process Report</a></p>
         </div>
     `,
-    project3: `
-        <div>
-            <p><i>waiting for the rights to be mine :)</i>
-        </div>
-
-    `,
-    project4: `
+    fab: `
         <div>
             <p>BRIEF<br>
             Map future trends in the sports and fashion industry, identify key opportunity areas, and define a clear future vision. Develop a strategic roadmap and design a visual artefact that represents an innovative response to these emerging trends.</p>
@@ -214,7 +207,7 @@ const pages = {
 
         <div class="span-2">
             <p>SOLUTION<br>
-            The Adidas Omniverse strategy envisions expanding the brand into a holistic health and active lifestyle platform by 2050. Driven by trends in wellness and personalization, it outlines a roadmap from physical activity support to tech-enabled personal growth. Through gamified rewards, pop-ups, a digital app, and a subscription model offering services like fitness and meditation, Adidas will be able to redefine its role in a community-driven, digital wellness future.</p>
+            The <i>Adidas Omniverse</i> strategy envisions expanding the brand into a holistic health and active lifestyle platform by 2050. Driven by trends in wellness and personalization, it outlines a roadmap from physical activity support to tech-enabled personal growth. Through gamified rewards, pop-ups, a digital app, and a subscription model offering services like fitness and meditation, Adidas will be able to redefine its role in a community-driven, digital wellness future.</p>
             <img src="img/fab/roadmap.png" style="width:100%;">
         </div>
 
@@ -268,7 +261,7 @@ const pages = {
             <a href="https://drive.google.com/file/d/12WnXepUvrcMvTK95-q7-RYYFMS_wC7o9/view" target="_blank" class="external-link">Presentation</a></p>
         </div>
     `,
-    project5: `
+    pizza: `
         <div>
             <p>BRIEF<br>
             Create an explanatory animation.</p>
@@ -320,7 +313,7 @@ const pages = {
             </div>
         </div>
     `,
-    research2:`
+    quanresearch:`
         <div>
             <p>BRIEF<br>
             Develop a small experimental research project to test chosen hypotheses around the following research question: How disgust eliciting cues in design interventions can help stop and rethink current unsustainable practices?</p>
@@ -365,7 +358,7 @@ const pages = {
             <a href="https://drive.google.com/file/d/1GTWvwmxHbtRlREDXWlmbNaomytRg4M2X/view" target="blank" class="external-link">multiple regressions</a></p>
         </div>        
     `,
-    research3:`
+    practitioner:`
         <div>
             <p>BRIEF<br>
             Draw on the literature in the field to create advice for a social design practitioner in the public domain.</p>
