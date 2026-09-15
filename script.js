@@ -17,20 +17,79 @@ const pages = {
         </div>
         <div>
             <p>I am a multifaceted designer, trained in interiors and evolved into service and strategy, with a fascination for the theoretical foundations of the design practice and the methodologies behind it. I enjoy exploring the world and its people through meaningful research, to create consistent designerly outcomes, that merge aesthetics and functionality, with human, social and political impact.<br><br>
-            based in Delft, NL<br>
+            born in Udine, IT<br>
             <a href="mailto:cernottoelena@gmail.com">cernottoelena@gmail.com</a><br><br>
             ->
-            <a href="https://drive.google.com/file/d/19HluBHLq6Hf5-LZ5-ZIddEb_C3V6H0j6/view" target="_blank" class="external-link">CV</a><br>
+            <a href="https://drive.google.com/file/d/1E5cNZdJCPq3c8pN_VHg77K2IWQz0ZstS/view" target="_blank" class="external-link">CV</a><br>
             ->
             <a href="https://www.linkedin.com/in/elenacernotto/" target="_blank" class="external-link">LinkedIn</a></p>
+            <p><strong>EXPERIENCE</strong><br>
+            Design Intern @<a href="https://www.mijksenaar.com/" target="_blank" class="external-link">Mijksenaar</a><br>
+            nov 2025-jan 2026<br>
             <p><strong>EDUCATION</strong><br>
             Strategic Product Design @TuDelft<br>
-            2024–present (MSc degree)<br>
-            Industrial Design Engineering, Technische Universiteit Delft, Delft, Netherlands<br><br>
+            2024–2026 (MSc degree)<br>
+            Technische Universiteit Delft, Delft, Netherlands<br><br>
             Interior Design @PoliMi<br>
             2021–2024 (BSc degree)<br>
-            Design School, Politecnico di Milano, Milan, Italy<br>
+            Politecnico di Milano, Milan, Italy<br>
         </div>
+    `,
+    aicommons: `
+        <div>
+            <p>RESEARCH QUESTION<br>
+            How can alternative digital practices contribute to the democratisation of the dominant infrastructure of the AI industry?</p>
+        </div>
+
+        <div></div>
+
+        <div>
+            <p>DESIGN METHODS<br>
+            ethnographic research, system mapping, AI prototyping</p>
+        </div>
+
+        <div class="span-2">
+            <p>ABSTRACT<br>
+            This 5-month research project frames the debate around AI infrastructure as a socio-technical controversy, contrasting the antidemocratic tendencies of the dominant infrastructure in the AI industry with community-driven alternatives. By engaging with local tech collectives and practitioners, the project highlights social desirability and the public good as novel criteria for technological development and outlines four fundamental democratic purposes that underpin alternative practices: self-determination, participation, reflexivity and sustainability. Collectivity and social friction are the common threads running through all of them. Rather than hiding it away, alternative digital infrastructures embrace friction as a generative resource that fosters critical thinking, collective negotiation and human relationships. Ultimately, the research concludes that the democratisation of AI is not solely a technical challenge, but a socio-technical process grounded in collective care. It suggests that meaningful alternatives emerge when technological progress is recentred around human relationships and social desirability rather than the market-driven imperatives of scale and efficiency.</p>
+        </div>
+
+        <div class="span-2">
+            <img src="img/aicommons/AN.png" style="width:100%;">
+        </div>
+
+        <div>
+            <p>-> <a href="https://drive.google.com/file/d/1gachzLCjSFYt33arsBSlPJRMA-Ln15U4/view" target="_blank" class="external-link">Full report</a>
+            <br>-> <a href="https://youtu.be/MY4EmGLH5dA" target="_blank" class="external-link">Video showcase</a></p>
+        </div>
+
+        <div></div>
+
+        <div>
+            <p>METHODOLOGY<br>
+            The project combines traditional research methods, such as literature reviews and ethnographic activities, with the iterative creation of design artefacts to reframe and enhance research findings.</p>
+        </div>
+        <div></div><div></div>
+
+        <div>
+            <img src="img/aicommons/methodology.png" style="width:100%;">
+        </div>
+
+        <div class="span-2">
+            <p>3D INTERACTIVE MAP<br>
+            A major outcome of this research is a design intervention in the form of an interactive 3D actor-network map. This digital prototype visualises the interconnections between the dominant AI infrastructure and the fragmented landscape of alternative practices, serving as a tool for knowledge sharing, solidarity, and further research. Its effectiveness as a research tool was assessed through a short round of evaluation sessions with research participants, suggesting its potential to support the debate exploration.</p>
+        </div>
+
+        <div class="span-2">
+            <video autoplay muted loop playsinline style="width: 100%; height: auto;">
+                <source src="img/aicommons/prototype.mov" type="video/mp4">
+            </video>
+        </div>
+
+        <div>
+            <p>explore the prototype <br>-> <a href="https://cernottoelena.github.io/impact-of-alternatives/" target="_blank" class="external-link">
+            Impact of Alternatives</a></p>
+        </div>
+
     `,
     swapflex: `
         <div>
@@ -77,7 +136,7 @@ const pages = {
         <div>
             <p>more about Swapfiets here<br>
             ->
-            <a href="#" data-page="research1" class="external-link">Research 1</a></p>
+            <a href="https://drive.google.com/file/d/1L4_tDHrbpODEjXFlVb-6-A-1ZXIJG9eh/view" target="_blank" class="external-link">Why design is strategic</a></p>
         </div>
 
         <div class="span-2">
@@ -399,6 +458,117 @@ const pages = {
             The Knowledge Framework is a tool that collects, synthesises and visualises theories and concepts from academic literature on societal missions, making it easy to identify relationships between fields and perspectives. It also served as the basis for semi-structured interviews with experts in the field.</p>
         </div>
     `,
+    meta: `
+        <div>
+            <p>BRIEF<br>
+            Develop a concept for three unused buildings to create a cohesive system within the Monza Park.</p>
+        </div>
+
+        <div></div>
+
+        <div>
+            <p>DESIGN METHODS<br>
+            context mapping, user research, trend research, concept design</p>
+        </div>
+
+        <div class="span-2">
+            <p>SOLUTION<br>
+            <i>DimensioneZero</i> is a spatial metaphor based on geometric principles which led to the renovation of the three buildings in the Monza Park. Each building provides different services to strenghten sociality at different levels.</p>
+            <img src="img/meta/concept generale.png" style="width:100%;">
+        </div>
+
+        <div></div><div></div>
+
+        <div>
+            <p>PERSONAL CONTRIBUTION<br>
+            I researched current trends and used these to develop the overall concept for the intervention. I then translated this into specific spatial solutions.</p>
+        </div>
+        <div></div>
+
+        <div class="span-2">
+            <p>CONCEPT<br>
+            In the unstable post-pandemic social context, people find themselves increasingly alone. The Monza Park system was therefore designed to help people regain their social and collective dimension. Visitors are guided through three buildings, each representing a geometric dimension (length, surface area and volume), inspired by their architecture. Each building then offers services and activities that bring people together in a variety of ways.</p>
+        </div>
+
+        <div class="span-2">
+            <div class="slider" data-images="img/meta/schizzo blu.png,img/meta/schizzo giallo.png,img/meta/schizzo rossso.png,img/meta/schizzo verde.png">
+                <button class="prev">&#x276E;</button>
+                <img src="" alt="slider image" class="slider-image" />
+                <button class="next">&#x276F;</button>
+            </div>
+            <p>THE VOLUME<br>
+            In particular, the concept was fully realised in the third building, which embodies the third geometric dimension: volume. While preserving as much of the original architecture as possible, the new interiors play with full and empty spatial elements, accentuated by solid colours. The building houses a library and a bookshop, as well as areas for studying and relaxing, and a coffee bar.</p>
+            <div class="slider" data-images="img/meta/stanza rossa.png,img/meta/relax zone.png,img/meta/zone studio.png,img/meta/bar.png">
+                <button class="prev">&#x276E;</button>
+                <img src="" alt="slider image" class="slider-image" />
+                <button class="next">&#x276F;</button>
+            </div>
+        </div>
+
+        <div></div><div></div><div></div>
+
+        <div class="details">
+            <p>more details here<br>
+            ->
+            <a href="https://drive.google.com/file/d/1N4lDPX5SFWWYQHdfz4g0XSUA7GRIdY4T/view" target="_blank" class="external-link">Project book</a><br>
+        </div>
+
+    `,
+    inod: `
+        <div>
+            <p>BRIEF<br>
+            Design a fictional installation that reinterprets a land art masterpiece.</p>
+        </div>
+
+        <div></div>
+
+        <div>
+            <p>DESIGN METHODS<br>
+            experience design, art direction, videomaking, maquette</p>
+        </div>
+
+        <div class="span-2">
+            <p>SOLUTION<br>
+            <i>Inod: In The Wood</i> is a sensory exhibition inspired by the work of Carl Andre. While Andre's piece allows visitors to walk around and explore a line of wooden modules, Inod offers them the opportunity to go inside the wood like insects and small creatures. The setup resembles a branch knot, and the experience is designed to engage all the senses, from sight to touch, smell, and hearing. Materials, textures, and light effects accompany visitors on their journey.</p>
+        </div>
+        <div class="span-2">
+            <img src="img/inod/cover.jpg" style="width:100%;">
+        </div>
+        <div>
+            <img src="img/inod/schizzo.jpg" style="width:100%">
+        </div>
+
+        <div></div><div></div><div></div><div></div>
+
+        <div>
+            <p>PERSONAL CONTRIBUTION<br>
+            I was responsible for the project's art direction. Furthermore, I curated the graphics, videos and photos.</p>
+        </div>
+        
+        <div class="span-2">
+            <p>MAQUETTE<br>
+            Particular attention was given to creating the exhibition model. As the main communication tool of the exhibition design, it conveyed all of its formal, material and lighting features. The process involved research, experimentation and several attempts, as well as careful documentation of the final results.
+            The final prototype was made out of polystyrene, plastered and painted to recreate the wooden aesthetics.</p>
+        </div>
+
+        <div class="span-2">
+            <div class="slider" data-images="img/inod/light2.jpg,img/inod/stairs.jpg,img/inod/top.jpg,img/inod/light.jpg,img/inod/dark.jpg">
+                <button class="prev">&#x276E;</button>
+                <img src="" alt="slider image" class="slider-image" />
+                <button class="next">&#x276F;</button>
+            </div>
+        </div>
+
+        <div>
+            <img src="img/inod/tot.jpg" style="width:100%">
+        </div>
+        
+        <div></div><div></div>
+        <div class="details">
+            <p>more details here<br>
+            -> <a href="https://drive.google.com/file/d/11tLjPmq-OGW6m677JMqFly03tgv6Xsq8/view" target="_blank" class="external-link">Project book<a>
+        </div>
+    `,
 };
 
 // --- slider ---
@@ -494,21 +664,48 @@ if (window.innerWidth > 768) {
   }
 
   // intercetto i click solo su desktop
-  document.addEventListener("click", e => {
-    const link = e.target.closest("a[data-page]");
-    if (link) {
-      e.preventDefault();
-      const targetPage = link.getAttribute("data-page");
-      loadPage(targetPage);
-    }
-  });
+document.addEventListener("click", e => {
+
+  const link = e.target.closest("a[data-page]");
+
+  if (link) {
+
+    e.preventDefault();
+
+    const targetPage = link.getAttribute("data-page");
+
+    // Carica il contenuto
+    loadPage(targetPage);
+
+    // Rimuove il font speciale dagli altri link
+    document.querySelectorAll("a[data-page]").forEach(item => {
+      item.classList.remove("active");
+    });
+
+    // Applica il font al link appena cliccato
+    link.classList.add("active");
+
+  }
+
+});
 
   // click su "ELENA CERNOTTO" -> home (colonna destra)
+
   document.getElementById("home-link").addEventListener("click", () => {
+
     loadPage("home");
+
+    // Rimuove il font speciale dai link
+    document.querySelectorAll("a[data-page]").forEach(item => {
+      item.classList.remove("active");
+    });
+
     setTimeout(() => {
-    initBouncers();
-  }, 50);
+
+      initBouncers();
+
+    }, 50);
+
   });
 
   // caricamento iniziale desktop

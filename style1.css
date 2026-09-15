@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+a[data-page].active {
+  font-family: ivypresto-display, serif;
+  font-weight: 300;
+}
+
 /* Layout principale */
 #sidebar {
     position: fixed;
@@ -91,7 +96,7 @@ a {
   height: auto;
   user-select: none;
   pointer-events: none;
-  opacity: 85%;
+  opacity: 95%;
 }
 
 .overlay-text {
@@ -100,8 +105,10 @@ a {
   left: 50%;
   z-index: 10;
   transform: translateX(-50%);
-  font-size: 24px;
-  font-family: 'IvyPresto Display thin';
+  font-size: 28px;
+  font-family: ivypresto-display, serif;
+  font-weight: 100;
+  font-style: normal;
   text-align: center;
   pointer-events: none; /* così il click passa attraverso la scritta */
   width: 100%;
