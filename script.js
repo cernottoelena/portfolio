@@ -45,7 +45,7 @@ const pages = {
 
         <div>
             <p>DESIGN METHODS<br>
-            ethnographic research, system mapping, AI prototyping</p>
+            ethnographic research, system mapping, AI prototyping, video editing, academic writing</p>
         </div>
 
         <div class="span-2">
@@ -57,12 +57,7 @@ const pages = {
             <img src="img/aicommons/AN.png" style="width:100%;">
         </div>
 
-        <div>
-            <p>-> <a href="https://drive.google.com/file/d/1gachzLCjSFYt33arsBSlPJRMA-Ln15U4/view" target="_blank" class="external-link">Full report</a>
-            <br>-> <a href="https://youtu.be/MY4EmGLH5dA" target="_blank" class="external-link">Video showcase</a></p>
-        </div>
-
-        <div></div>
+        <div></div><div></div>
 
         <div>
             <p>METHODOLOGY<br>
@@ -88,6 +83,28 @@ const pages = {
         <div>
             <p>explore the prototype <br>-> <a href="https://cernottoelena.github.io/impact-of-alternatives/" target="_blank" class="external-link">
             Impact of Alternatives</a></p>
+        </div>
+
+        <div class="span-2">
+            <p>VIDEO SHOCASE<br>
+            This 4-minute video attempts to present the entire project, from the initial research into the issues and threats of the dominant AI infrastructure to the ethnographic research into alternatives, alongside the continuous mapping work that culminated in the development of the prototype.
+            Edited in Adobe Premiere Pro, animated in Adobe After Effects.</p>
+        </div>
+        <div></div>
+        
+        <div style="position: relative; width: 205%; padding-bottom: 112.5%; height: 0;">
+            <iframe
+                src="https://www.youtube.com/embed/MY4EmGLH5dA"
+                allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+            ></iframe>
+        </div>
+
+        <div></div><div class="span-2"></div>
+        <div class="details">
+            <p>more details here<br>
+            -> <a href="https://drive.google.com/file/d/1gachzLCjSFYt33arsBSlPJRMA-Ln15U4/view" target="_blank" class="external-link">Thesis report</a>
+            </p>
         </div>
 
     `,
@@ -261,7 +278,7 @@ const pages = {
 
         <div>
             <p>DESIGN METHODS<br>
-            visual foresight, future vision, trend analysis, roadmap, business model</p>
+            visual foresight, future vision, trend analysis, roadmap, business analysis</p>
         </div>
 
         <div class="span-2">
