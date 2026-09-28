@@ -515,7 +515,7 @@ const pages = {
             </div>
             <p>THE VOLUME<br>
             In particular, the concept was fully realised in the third building, which embodies the third geometric dimension: volume. While preserving as much of the original architecture as possible, the new interiors play with full and empty spatial elements, accentuated by solid colours. The building houses a library and a bookshop, as well as areas for studying and relaxing, and a coffee bar.</p>
-            <div class="slider" data-images="img/meta/stanza rossa.png,img/meta/relax zone.png,img/meta/zone studio.png,img/meta/bar.png">
+            <div class="slider" data-images="img/meta/stanza rossa.png,img/meta/RELAX ZONE.png,img/meta/Zone studio.png,img/meta/BAR.png">
                 <button class="prev">&#x276E;</button>
                 <img src="" alt="slider image" class="slider-image" />
                 <button class="next">&#x276F;</button>
