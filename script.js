@@ -25,7 +25,7 @@ const pages = {
             <a href="https://www.linkedin.com/in/elenacernotto/" target="_blank" class="external-link">LinkedIn</a></p>
             <p><strong>EXPERIENCE</strong><br>
             Design Intern @<a href="https://www.mijksenaar.com/" target="_blank" class="external-link">Mijksenaar</a><br>
-            nov 2025-jan 2026<br>
+            nov 2025-feb 2026<br>
             <p><strong>EDUCATION</strong><br>
             Strategic Product Design @TuDelft<br>
             2024–2026 (MSc degree)<br>
