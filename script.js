@@ -16,7 +16,7 @@ const pages = {
             </div>
         </div>
         <div>
-            <p>I am a multifaceted designer, trained in interiors and evolved into service and strategy, with a fascination for the theoretical foundations of the design practice and the methodologies behind it. I enjoy exploring the world and its people through meaningful research, to create consistent designerly outcomes, that merge aesthetics and functionality, with human, social and political impact.<br><br>
+            <p>With a background in interior and strategic design, I use qualitative and quantitative research to make sense of complex realities. I transform insights into human-centred design decisions to enhance user experience across spaces, services, and systems, with a special consideration for ethical technology and AI solutions.<br><br>
             born in Udine, IT<br>
             <a href="mailto:cernottoelena@gmail.com">cernottoelena@gmail.com</a><br><br>
             ->
@@ -513,8 +513,12 @@ const pages = {
                 <img src="" alt="slider image" class="slider-image" />
                 <button class="next">&#x276F;</button>
             </div>
+        </div>
+        <div class="span-2">
             <p>THE VOLUME<br>
             In particular, the concept was fully realised in the third building, which embodies the third geometric dimension: volume. While preserving as much of the original architecture as possible, the new interiors play with full and empty spatial elements, accentuated by solid colours. The building houses a library and a bookshop, as well as areas for studying and relaxing, and a coffee bar.</p>
+        </div>
+        <div class="span-2">
             <div class="slider" data-images="img/meta/stanza rossa.png,img/meta/RELAX ZONE.png,img/meta/Zone studio.png,img/meta/BAR.png">
                 <button class="prev">&#x276E;</button>
                 <img src="" alt="slider image" class="slider-image" />
@@ -522,12 +526,16 @@ const pages = {
             </div>
         </div>
 
-        <div></div><div></div><div></div>
+        <div>
+            <img src="img/meta/tecnici.png" style="width:80%;">
+        </div>
+        <div></div><div></div>
 
         <div class="details">
             <p>more details here<br>
             ->
             <a href="https://drive.google.com/file/d/1N4lDPX5SFWWYQHdfz4g0XSUA7GRIdY4T/view" target="_blank" class="external-link">Project book</a><br>
+            -> <a href="https://drive.google.com/file/d/1sEEQiBCahOIR97QqIN7LAfD5EcxoKoIE/view?usp=sharing" target="_blank" class="external-link">Presentation board</a>
         </div>
 
     `,
@@ -546,7 +554,7 @@ const pages = {
 
         <div class="span-2">
             <p>SOLUTION<br>
-            <i>Inod: In The Wood</i> is a sensory exhibition inspired by the work of Carl Andre. While Andre's piece allows visitors to walk around and explore a line of wooden modules, Inod offers them the opportunity to go inside the wood like insects and small creatures. The setup resembles a branch knot, and the experience is designed to engage all the senses, from sight to touch, smell, and hearing. Materials, textures, and light effects accompany visitors on their journey.</p>
+            <i>Inod: In The Wood</i> is a sensory exhibition inspired by the work of Carl Andre. While Andre's piece allows visitors to walk around and explore a line of wooden modules, Inod offers them the opportunity to go inside the wood like insects and small creatures. The setup resembles a branch knot, and the experience is designed to engage all the senses, from sight to touch, smell, and hearing. Materials, textures, and lights accompany visitors on their journey.</p>
         </div>
         <div class="span-2">
             <img src="img/inod/cover.jpg" style="width:100%;">
@@ -555,16 +563,36 @@ const pages = {
             <img src="img/inod/schizzo.jpg" style="width:100%">
         </div>
 
-        <div></div><div></div><div></div><div></div>
+        <div></div>
 
         <div>
             <p>PERSONAL CONTRIBUTION<br>
-            I was responsible for the project's art direction. Furthermore, I curated the graphics, videos and photos.</p>
+            I was responsible for the project's art direction. Furthermore, I curated the graphics, videos and photos.
+            <br><br></p>
         </div>
+        <div></div>
+
+        <div>
+            <p>VISITOR FLOW AND LIGTHING STUDIES<br>
+            The project was developed around the path that visitors would follow inside the installation. Once the shape of the installation had been defined, visitor flows were studied and the structure of the glass ceiling was consequently designed to create lighting effects resembling seasonal changes. Colours and materials were tested on smaller physical samples, and the final results were presented in multiple drawings.
+            <br></p>
+        </div>
+
+        <div class="slider" data-images="img/inod/sec/pros_1.png,img/inod/sec/pros_2.png,img/inod/sec/pros_3.png,img/inod/sec/pros_3.png,img/inod/sec/pros_4.png">
+            <button class="prev">&#x276E;</button>
+            <img src="" alt="slider image" class="slider-image" />
+            <button class="next">&#x276F;</button>
+        </div>
+        <div></div><div></div>
+
+        <div>
+            <img src="img/inod/path.png" style="width:100%;">
+        </div>
+        <div></div>
         
         <div class="span-2">
             <p>MAQUETTE<br>
-            Particular attention was given to creating the exhibition model. As the main communication tool of the exhibition design, it conveyed all of its formal, material and lighting features. The process involved research, experimentation and several attempts, as well as careful documentation of the final results.
+            Particular attention was given to creating the exhibition maquette. As the main communication tool of the exhibition design, it conveyed all of its formal, material and lighting features. The process involved research, experimentation and several attempts, as well as careful documentation of the final results.
             The final prototype was made out of polystyrene, plastered and painted to recreate the wooden aesthetics.</p>
         </div>
 
@@ -579,11 +607,86 @@ const pages = {
         <div>
             <img src="img/inod/tot.jpg" style="width:100%">
         </div>
+
+        <div class="span-2">
+            <p><br></p>
+        </div>
+        <div></div>
+        <div>
+            <img src="img/inod/back/coffe.png" style="width:100%;">
+        </div>
+        <div>
+            <img src="img/inod/back/brush.png" style="width:100%;">
+        </div>
+        <div></div>
+        <div>
+            <img src="img/inod/back/material.jpg" style="width:100%; position: relative; top: -135px;">
+        </div>
         
-        <div></div><div></div>
+        <div></div>
         <div class="details">
             <p>more details here<br>
             -> <a href="https://drive.google.com/file/d/11tLjPmq-OGW6m677JMqFly03tgv6Xsq8/view" target="_blank" class="external-link">Project book<a>
+        </div>
+    `,
+    lab2: `
+        <div>
+            <p>BRIEF<br>
+            Renovate a historical sports center in Milan to help it align with the evolving district where it is located.</p>
+        </div>
+
+        <div></div>
+
+        <div>
+            <p>DESIGN METHODS<br>
+            context research, moodboard, spatial branding, FF&E selection, 3D modelling, rendering</p>
+        </div>
+
+        <div class="span-2">
+            <p>SOLUTION<br>
+            The project aimed to renovate the centre in order to attract the target group that now frequents the district, while preserving its historical identity and function as a meeting place.
+            Therefore, the new masterplan retains and relocates existing functions and services to create a new area for a different type of subscription that aligns with the target audience.
+            Furthermore, additional external sports facilities are incorporated into the design of the site. Above all, the whole site is intended to serve as a multifunctional space for hosting cultural activities at night, with the aim of providing a vibrant and inclusive environment that caters to a diverse range of interests and activities.</p>
+        </div>
+
+        <div class="span-2">
+            <img src="img/lab2/cover.png" style="width:100%;">
+        </div>
+        <div></div><div></div>
+
+        <div>
+            <p>PERSONAL CONTRIBUTION<br>
+            My focus was on the context research and concept development phases. I was also responsible for creating the 3D model and renders.</p>
+        </div>
+
+        <div class="span-2">
+            <p>MASTERPLAN<br>
+            Although the renovation focused on a single building and its surrounding area, the initial project phase involved developing a new masterplan for the entire centre.  
+            This took into account the existing sports facilities and maintained their original function. At the same time, it specified the new and changeable services for the redesigned area.
+            </p>
+            <img src="img/lab2/masterplan.png" style="width:100%;">
+        </div>
+
+        <div class="span-2">
+            <p>SPATIAL IDENTITY<br>
+            The design choice for the interiors was clear: to maintain and emphasise the existing features in terms of colours, materials, and finishes. 
+            However, the project did not simply aim to imitate and reproduce what was already there. Instead, the moodboard first and the design later, draw from the site survey and re-elaborated that impression in a modern style that aligns well with the surrounding district. 
+            Every element was designed accordingly. This included new multifunctional furniture and finishes. Each element was designed into the finest details.</p>
+        </div>
+        <div class="span-2">
+            <div class="slider" data-images="img/lab2/tot.png,img/lab2/ext.png,img/lab2/bar.png,img/lab2/dehorz.png,img/lab2/ingresso.png">
+                <button class="prev">&#x276E;</button>
+                <img src="" alt="slider image" class="slider-image" />
+                <button class="next">&#x276F;</button>
+            </div>
+        </div>
+        <div>
+            <img src="img/lab2/ph.png" style="width:80%;">
+        </div>
+        <div></div><div></div>
+        <div class="details">
+            <p>more details here<br>
+            -> <a href="https://drive.google.com/file/d/1NHftaOYmL8MZpF4PNWYXZLqY_XByXnIU/view" target="_blank" class="external-link">Project book<a>
         </div>
     `,
 };
