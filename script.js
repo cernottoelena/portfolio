@@ -687,6 +687,7 @@ const pages = {
         <div class="details">
             <p>more details here<br>
             -> <a href="https://drive.google.com/file/d/1NHftaOYmL8MZpF4PNWYXZLqY_XByXnIU/view" target="_blank" class="external-link">Project book<a>
+            <br> -> <a href="https://drive.google.com/file/d/1OqtO-I-MjarxP_rVgKEz5yBupso86lgc/view" target="_blank" class="external-link">Technical drawings<a>
         </div>
     `,
 };
