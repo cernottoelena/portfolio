@@ -25,7 +25,7 @@ const pages = {
             <a href="https://www.linkedin.com/in/elenacernotto/" target="_blank" class="external-link">LinkedIn</a></p>
             <p><strong>EXPERIENCE</strong><br>
             Design Intern @<a href="https://www.mijksenaar.com/" target="_blank" class="external-link">Mijksenaar</a><br>
-            nov 2025-feb 2026<br>
+            nov -feb 2026<br>
             <p><strong>EDUCATION</strong><br>
             Strategic Product Design @TuDelft<br>
             2024–2026 (MSc degree)<br>
@@ -86,7 +86,7 @@ const pages = {
         </div>
 
         <div class="span-2">
-            <p>VIDEO SHOCASE<br>
+            <p>VIDEO showcase<br>
             This 4-minute video attempts to present the entire project, from the initial research into the issues and threats of the dominant AI infrastructure to the ethnographic research into alternatives, alongside the continuous mapping work that culminated in the development of the prototype.
             Edited in Adobe Premiere Pro, animated in Adobe After Effects.</p>
         </div>
@@ -220,7 +220,7 @@ const pages = {
         <div class="span-2">
             <p>CARD GAME<br>
             In GoSolve, teams of players are presented with Problem and Solution cards, and the aim is to find the most suitable and viable solution for each problem.
-            <br>Drawing from literature on gamification and activism, the game provides a springboard for young people to start working on a project, equipping them with the relevant knowledge. Thanks to its simple setup, this solution can easily be scaled up, making youth advocacy accessible and interactive on a global scale, regardless specific conditions.</p>
+            <br>Drawing from literature on gamification and activism, the game provides a springboard for young people to start working on a project, equipping them with the relevant knowledge. Thanks to its simple setup, this solution can easily be scaled up, making youth advocacy accessible and interactive on a global scale, regardless of specific conditions.</p>
         </div>
 
         <div></div>
@@ -490,7 +490,7 @@ const pages = {
 
         <div class="span-2">
             <p>SOLUTION<br>
-            <i>DimensioneZero</i> is a spatial metaphor based on geometric principles which led to the renovation of the three buildings in the Monza Park. Each building provides different services to strenghten sociality at different levels.</p>
+            <i>DimensioneZero</i> is a spatial metaphor based on geometric principles which led to the renovation of the three buildings in the Monza Park. Each building provides different services to strengthen sociality at different levels.</p>
             <img src="img/meta/concept generale.png" style="width:100%;">
         </div>
 
@@ -573,7 +573,7 @@ const pages = {
         <div></div>
 
         <div>
-            <p>VISITOR FLOW AND LIGTHING STUDIES<br>
+            <p>VISITOR FLOW AND LIGHTING STUDIES<br>
             The project was developed around the path that visitors would follow inside the installation. Once the shape of the installation had been defined, visitor flows were studied and the structure of the glass ceiling was consequently designed to create lighting effects resembling seasonal changes. Colours and materials were tested on smaller physical samples, and the final results were presented in multiple drawings.
             <br></p>
         </div>
